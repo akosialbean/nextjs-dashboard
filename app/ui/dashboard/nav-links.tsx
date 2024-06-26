@@ -27,6 +27,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
         const LinkIcon = link.icon;
+        const test = 1
         return (
           <Link
             key={link.name}
