@@ -7,10 +7,10 @@ import Image from 'next/image'
 
 export default function Page() {
   type Image = {
-    src: string
-    alt?: string
-    width?: number
-    height?: number
+    src: string;
+    alt?: string;
+    width?: number;
+    height?: number;
   }
   return (
     <main className="flex min-h-screen flex-col p-6">
